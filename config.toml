@@ -1,6 +1,5 @@
 baseurl         = "https://acsyl.github.io/"
 theme           = "casper-two"
-publishDir      = "docs/"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
@@ -10,16 +9,16 @@ paginate        = 6
   title       = "Shuyang Li"
   subtitle    = ""
 
-  cover       = "img/blog-cover.jpg"
+  cover       = "raining.jpg"
   description = "Here is a description of your site."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
+  twitterName = ""
+  fbName = ""
+  githubName = "acsyl"
 
   logo = ""
   orgName = ""
@@ -51,11 +50,11 @@ paginate        = 6
   weight = 100
 
 [[menu.main]]
-  name = "About me"
-  url = "/categories/About me/"
+  name = "Publishes"
+  url = "/tags/Publishes/"
   weight = 99
 
 [[menu.main]]
-  name = "External"
-  url = "https://google.com/"
+  name = "About me"
+  url = "/tags/me/"
   weight = 95
