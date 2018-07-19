@@ -1,0 +1,60 @@
+baseurl         = "https://acsyl.github.io/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Shuyang Li"
+  subtitle    = ""
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  logo = ""
+  orgName = ""
+  orgWebsite = ""
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Shuyang Li"
+  authorAvatar = "s.jpeg"
+  authorLocation = ""
+  authorWebsite = ""
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
